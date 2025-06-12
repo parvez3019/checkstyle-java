@@ -1,1 +1,6 @@
-
+<module name="SuppressionFilter">
+  <property name="file" value="checkstyle-suppressions.xml"/>
+  <suppress checks="CustomImportOrder" files="*.java"/>
+  <suppress checks="JavadocMethod" files="*"/>
+  <suppress checks="MissingJavadocType" files="*"/>
+</module>
